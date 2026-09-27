@@ -1,22 +1,51 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
-
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+  - title: "TAPE: Task-Adaptive Prototype Evolution in Audio-Language Models for Fully Few-shot Class-incremental Audio Classification"
+    authors: <strong>Yunlong Gao</strong>, Wenxin Liang, Guanglu Wang, Senqi Guan, Linlin Zong, Dongyu Zhang, Xinyue Liu*
     conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2026.
+    pdf: https://openaccess.thecvf.com/content/CVPR2026/papers/Gao_TAPE_Task-Adaptive_Prototype_Evolution_in_Audio-Language_Models_for_Fully_Few-shot_CVPR_2026_paper.pdf
+    code: https://github.com/YvoGao/TAPE
+    bibtex: ./assets/bib/TAPE.bib
+    image: ./assets/img/TAPE.png
+    notes: ""
+    
+  - title: "Joint Logits Purification and Feature Supplement for CLIP-based Few-shot Learning"
+    authors: <strong>Yunlong Gao</strong>, Jun Wang, Wentao Yang, Wenxin Liang, Xinyue Liu
+    conference_short: ICME
+    conference: IEEE International Conference on Multimedia and Expo <strong>(ICME)</strong>, 2026.
+    pdf: ""
+    code: https://github.com/YvoGao/LPFS
+    bibtex: ./assets/bib/LPFS.bib
+    image: ./assets/img/LPFS.png
+    notes: Spotlight
+
+  - title: "Learning Dual-Modal Prototypes for CLAP-based Few-Shot Audio Classification"
+    authors: <strong>Yunlong Gao</strong>, Xinyue Liu, Jun Wang, Wenxin Liang, Linlin Zong, Xianchao Zhang
+    conference_short: PRL
+    conference: <strong>Pattern Recognition Letters</strong>, vol. 209, pp. 173-179, 2026.
+    pdf: https://doi.org/10.1016/j.patrec.2026.09.008
+    code: https://github.com/YvoGao/DMPT
+    bibtex: ./assets/bib/DMPT.bib
+    image: ./assets/img/DMPT.png
+    notes: ""
+
+  - title: "Guiding Prototype Networks with Label Semantics for Few-shot Text Classification"
+    authors: Xinyue Liu, <strong>Yunlong Gao</strong>, Linlin Zong, Wenxin Liang, Bo Xu
+    conference_short: PR
+    conference: <strong>Pattern Recognition</strong>, vol. 164, Article 111497, 2025.
+    pdf: https://doi.org/10.1016/j.patcog.2025.111497
+    code: https://github.com/YvoGao/Label-guided-Text-Classification
+    bibtex: ./assets/bib/LGPN.bib
+    image: ./assets/img/LGPN.png
+    notes: ""
+
+  - title: "Improve Meta-learning for Few-Shot Text Classification With All You Can Acquire from the Tasks"
+    authors: Xinyue Liu, <strong>Yunlong Gao</strong>, Linlin Zong, Bo Xu*
+    conference_short: EMNLP
+    conference: Findings of the Association for Computational Linguistics <strong>(EMNLP)</strong>, pp. 223-235, 2024.
+    pdf: https://aclanthology.org/2024.findings-emnlp.12.pdf
+    code: https://github.com/YvoGao/LAQDA
+    bibtex: https://aclanthology.org/2024.findings-emnlp.12.bib
+    image: ./assets/img/LAQDA.png
+    notes: ""
